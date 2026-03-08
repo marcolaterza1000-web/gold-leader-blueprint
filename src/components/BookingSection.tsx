@@ -44,7 +44,7 @@ const BookingSection = () => {
           {/* Calendly inline widget */}
           <div
             className="calendly-inline-widget rounded-lg overflow-hidden mb-8"
-            data-url="https://calendly.com/marcolaterza/strategiegesprach?hide_gdpr_banner=1&background_color=0d0f1a&text_color=f0f0f0&primary_color=c9a84c"
+            data-url="https://calendly.com/marco-laterza/30min?hide_gdpr_banner=1&background_color=0d0f1a&text_color=f0f0f0&primary_color=c9a84c"
             style={{ minWidth: "320px", height: "700px" }}
           />
 
