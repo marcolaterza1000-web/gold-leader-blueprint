@@ -4,12 +4,12 @@ const reviews = [
 {
   name: "Robert Skrobak",
   date: "Januar 2026",
-  text: "Marco arbeitet sehr professionell und verfügt über ein beeindruckendes Palmares. Er geht individuell auf meine Situation ein und hat eine massgeschneiderte Struktur definiert. Seine Erfahrung mit Unternehmern und C-Level Menschen ist einzigartig. Er versteht das stressvolle Setting und berät mit Fokus auf Resilienz, Leistungsfähigkeit und Erholung."
+  text: "Marco arbeitet sehr professionell und verfügt über ein beeindruckendes Palmares. Er geht individuell auf meine Situation ein und hat eine massgeschneiderte Struktur definiert. Seine Erfahrung mit Unternehmern und C-Level Menschen ist einzigartig. Eersteht das stressvolle Setting und berät mit Fokus auf Resilienz, Leistungsfähigkeit und Erholung."
 },
 {
   name: "Yvon Hochstrasser",
   date: "Mai 2025",
-  text: "Working with Marco Laterza has been a truly transformative experience. I not only reached my body goal, but it also had an impact on my mind — which helped me during a tough period of my life. His holistic philosophy is not just about working out — it's about creating a mindset and a way of life that supports long-term health."
+  text: "Working with Marco Laterza has been a truly transformative experience. I not only reached my body goal, but it also had an impact on my mind —which helped me during a tough period of my life. His holistic philosophy is not just about working out.'s about creating a mindset and a way of life that supports long-term health."
 },
 {
   name: "Nicola Hägeli",
