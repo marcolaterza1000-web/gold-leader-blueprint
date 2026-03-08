@@ -4,7 +4,7 @@ const tiles = [
 {
   icon: Dumbbell,
   title: "Präzises Krafttraining",
-  text: "Biomechanisch sauber und hocheffizient — exakt angepasst an Ihren Kalender und Ihre Tagesform. Basierend auf HRV-Messungen steuern wir die Belastung so, dass Sie Stress abbauen und Energie gewinnen, statt auszubrennen.",
+  text: "Biomechanisch sauber und hocheffizient - exakt angepasst an Ihren Kalender und Ihre Tagesform. Basierend auf HRV-Messungen steuern wir die Belastung so, dass Sie Stress abbauen und Energie gewinnen, statt auszubrennen.",
   tag: "Training"
 },
 {
