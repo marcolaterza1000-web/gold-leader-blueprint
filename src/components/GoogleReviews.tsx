@@ -4,7 +4,7 @@ const reviews = [
 {
   name: "Robert Skrobak",
   date: "Januar 2026",
-  text: "Marco arbeitet sehr professionell und verfügt über ein beeindruckendes Palmares. Er geht individuell auf meine Situation ein und hat eine massgeschneiderte Struktur definiert. Seine Erfahrung mit Unternehmern und C-Level Menschen ist einzigartig — er versteht das stressvolle Setting und berät mit Fokus auf Resilienz, Leistungsfähigkeit und Erholung."
+  text: "Marco arbeitet sehr professionell und verfügt über ein beeindruckendes Palmares. Er geht individuell auf meine Situation ein und hat eine massgeschneiderte Struktur definiert. Seine Erfahrung mit Unternehmern und C-Level Menschen ist einzigartig. Er versteht das stressvolle Setting und berät mit Fokus auf Resilienz, Leistungsfähigkeit und Erholung."
 },
 {
   name: "Yvon Hochstrasser",
