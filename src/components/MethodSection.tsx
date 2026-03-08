@@ -4,13 +4,13 @@ const tiles = [
 {
   icon: Dumbbell,
   title: "Präzises Krafttraining",
-  text: "Biomechanisch sauber und hocheffizient - exakt angepasst an Ihren Kalender und Ihre Tagesform. Basierend auf HRV-Messungen steuern wir die Belastung so, dass Sie Stress abbauen und Energie gewinnen, statt auszubrennen.",
+  text: "Biomechanisch sauber und hocheffizient -xakt angepasst an Ihren Kalender und Ihre Tagesform. Basierend auf HRV-Messungen steuern wir die Belastung so, dass Sie Stress abbauen und Energie gewinnen, statt auszubrennen.",
   tag: "Training"
 },
 {
   icon: Apple,
   title: "Hormonbasierte Ernährungsoptimierung",
-  text: "Kein Nachmittagstief, sondern konstanter Fokus. Wir entwickeln eine Strategie basierend auf Blutmessungen Ihrer hormonellen Ausgangslage — pragmatisch integrierbar in Geschäftsessen und Reisen. Maximale Energie bei vollem Genuss.",
+  text: "Kein Nachmittagstief, sondern konstanter Fokus. Wir entwickeln eine Strategie basierend auf Blutmessungen Ihrer hormonellen Ausgangslage �-ragmatisch integrierbar in Geschäftsessen und Reisen. Maximale Energie bei vollem Genuss.",
   tag: "Ernährung"
 },
 {
