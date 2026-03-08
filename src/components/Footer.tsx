@@ -1,11 +1,13 @@
-import { Instagram, Linkedin, Youtube, Facebook, MessageCircle } from "lucide-react";
+import { FaInstagram, FaLinkedin, FaYoutube, FaFacebook, FaWhatsapp } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 
 const socialLinks = [
-  { Icon: Instagram, href: "https://www.instagram.com/marcolaterza/", label: "Instagram" },
-  { Icon: Linkedin, href: "https://www.linkedin.com/in/marco-laterza/", label: "LinkedIn" },
-  { Icon: Youtube, href: "https://www.youtube.com/channel/UCMPQ4avjkYuDbKICyU8M_2w", label: "YouTube" },
-  { Icon: Facebook, href: "https://www.facebook.com/marcolaterzafit", label: "Facebook" },
-  { Icon: MessageCircle, href: "https://wa.me/41794445851", label: "WhatsApp" },
+  { Icon: FaInstagram, href: "https://www.instagram.com/marcolaterza/", label: "Instagram" },
+  { Icon: FaLinkedin, href: "https://www.linkedin.com/in/marco-laterza/", label: "LinkedIn" },
+  { Icon: FaXTwitter, href: "https://x.com/mlaterza", label: "Twitter/X" },
+  { Icon: FaYoutube, href: "https://www.youtube.com/channel/UCMPQ4avjkYuDbKICyU8M_2w", label: "YouTube" },
+  { Icon: FaFacebook, href: "https://www.facebook.com/marcolaterzafit", label: "Facebook" },
+  { Icon: FaWhatsapp, href: "https://wa.me/41794445851", label: "WhatsApp" },
 ];
 
 const Footer = () => (
@@ -19,7 +21,7 @@ const Footer = () => (
       <div className="flex items-center gap-4">
         {socialLinks.map(({ Icon, href, label }) => (
           <a key={label} href={href} target="_blank" rel="noopener noreferrer" className="text-primary/70 hover:text-primary transition-colors" aria-label={label}>
-            <Icon className="w-5 h-5" />
+            <Icon size={24} />
           </a>
         ))}
       </div>
