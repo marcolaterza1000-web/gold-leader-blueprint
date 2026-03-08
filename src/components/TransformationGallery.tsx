@@ -8,11 +8,7 @@ import t5 from "@/assets/transform_corinna.jpg";
 import t6 from "@/assets/transform_extra.jpg";
 import t7 from "@/assets/transform_nico.jpg";
 import t8 from "@/assets/transform_bidi.jpg";
-import t9 from "@/assets/transform_marco.jpg";
-import t10 from "@/assets/transform_front.jpg";
-import t11 from "@/assets/transform_jean.jpg";
-
-const images = [t1, t2, t3, t4, t5, t6, t7, t8, t9, t10, t11];
+const images = [t1, t2, t3, t4, t5, t6, t7, t8];
 
 const TransformationGallery = () => {
   const [selected, setSelected] = useState<string | null>(null);
