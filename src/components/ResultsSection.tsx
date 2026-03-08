@@ -46,21 +46,20 @@ const Stars = () => (
 );
 
 const ResultsSection = () => (
-  <section id="ergebnisse" className="py-24 bg-secondary px-4">
+  <section id="ergebnisse" className="py-32 bg-secondary px-4">
     <div className="container mx-auto max-w-6xl">
       <p className="font-inter text-sm text-primary uppercase tracking-widest text-center mb-3">Ergebnisse</p>
       <h2 className="font-playfair font-bold text-3xl md:text-5xl text-foreground text-center mb-4">
         Messbare Resultate für <span className="text-primary">Menschen mit Ambitionen</span>
       </h2>
-      <p className="text-center font-inter text-muted-foreground mb-16 max-w-xl mx-auto">
+      <p className="text-center font-inter text-muted-foreground mb-20 max-w-xl mx-auto">
         Führungskräfte, Sportler und Entscheider - das sagen Sie über die Zusammenarbeit mit Marco.
       </p>
 
       <div className="grid md:grid-cols-3 gap-6">
         {testimonials.map((t, i) => (
-          <div key={i} className="bg-card border border-border rounded-lg p-7 flex flex-col hover:border-primary/40 transition-colors">
+          <div key={i} className="bg-card border border-border rounded-2xl p-8 flex flex-col shadow-card hover:shadow-card-hover hover:border-primary/30 transition-all duration-300">
             <Stars />
-            {/* Highlight badge */}
             <div className="inline-block bg-primary/10 border border-primary/20 rounded-full px-3 py-1 mb-4 self-start">
               <span className="font-inter text-xs text-primary font-medium">{t.highlight}</span>
             </div>
@@ -68,7 +67,7 @@ const ResultsSection = () => (
             <p className="font-inter text-foreground/80 leading-relaxed mb-6 flex-1 text-sm">
               «{t.quote}»
             </p>
-            <div className="border-t border-border pt-4">
+            <div className="border-t border-border/50 pt-4">
               <p className="font-inter font-semibold text-foreground text-sm whitespace-nowrap">{t.name}</p>
               <p className="font-inter text-xs text-muted-foreground">{t.role}</p>
             </div>
@@ -76,10 +75,10 @@ const ResultsSection = () => (
         ))}
       </div>
 
-      <div className="text-center mt-12">
+      <div className="text-center mt-14">
         <a
           href="#kontakt"
-          className="inline-flex items-center px-10 py-4 rounded-full bg-primary text-primary-foreground font-inter font-semibold text-lg hover:brightness-110 transition shadow-gold"
+          className="inline-flex items-center px-10 py-4 rounded-full bg-primary text-primary-foreground font-inter font-semibold text-lg hover:brightness-110 transition-all duration-300 shadow-gold"
         >
           Jetzt Ihr Erstgespräch buchen
         </a>
