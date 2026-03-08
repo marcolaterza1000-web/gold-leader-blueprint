@@ -6,23 +6,23 @@
 
 @layer base {
   :root {
-    --background: 240 28% 5%;
+    --background: 240 20% 3%;
     --foreground: 0 0% 94%;
 
-    --card: 240 28% 10%;
+    --card: 240 15% 7%;
     --card-foreground: 0 0% 94%;
 
-    --popover: 240 28% 10%;
+    --popover: 240 15% 7%;
     --popover-foreground: 0 0% 94%;
 
     --primary: 39 53% 54%;
     --primary-foreground: 0 0% 5%;
 
-    --secondary: 240 28% 14%;
+    --secondary: 240 18% 5%;
     --secondary-foreground: 0 0% 94%;
 
-    --muted: 240 20% 18%;
-    --muted-foreground: 0 0% 65%;
+    --muted: 240 14% 12%;
+    --muted-foreground: 0 0% 55%;
 
     --accent: 39 53% 54%;
     --accent-foreground: 0 0% 5%;
@@ -30,16 +30,16 @@
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 94%;
 
-    --border: 240 20% 20%;
-    --input: 240 20% 20%;
+    --border: 240 12% 12%;
+    --input: 240 12% 12%;
     --ring: 39 53% 54%;
 
-    --radius: 0.5rem;
+    --radius: 1rem;
 
     --gold: 39 53% 54%;
     --gold-light: 39 60% 65%;
-    --night: 240 28% 14%;
-    --deep-black: 0 0% 5%;
+    --night: 240 18% 5%;
+    --deep-black: 0 0% 3%;
   }
 }
 
@@ -100,6 +100,14 @@
   }
 
   .shadow-gold {
-    box-shadow: 0 0 30px hsl(39 53% 54% / 0.15);
+    box-shadow: 0 0 40px hsl(39 53% 54% / 0.12), 0 0 80px hsl(39 53% 54% / 0.06);
+  }
+
+  .shadow-card {
+    box-shadow: 0 4px 24px hsl(0 0% 0% / 0.4), 0 0 0 1px hsl(240 12% 12% / 0.5);
+  }
+
+  .shadow-card-hover {
+    box-shadow: 0 8px 40px hsl(0 0% 0% / 0.5), 0 0 30px hsl(39 53% 54% / 0.08);
   }
 }
