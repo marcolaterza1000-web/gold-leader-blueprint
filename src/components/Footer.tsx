@@ -11,17 +11,17 @@ const socialLinks = [
 ];
 
 const Footer = () => (
-  <footer className="py-12 bg-background border-t border-border px-4">
-    <div className="container mx-auto max-w-5xl flex flex-col md:flex-row items-center justify-between gap-6">
+  <footer className="py-16 bg-background border-t border-border/50 px-4">
+    <div className="container mx-auto max-w-5xl flex flex-col md:flex-row items-center justify-between gap-8">
       <div className="flex items-center gap-6 font-inter text-sm text-muted-foreground">
         <a href="#" className="hover:text-primary transition-colors">Impressum</a>
         <a href="#" className="hover:text-primary transition-colors">Datenschutz</a>
       </div>
 
-      <div className="flex items-center gap-4">
+      <div className="flex items-center gap-5">
         {socialLinks.map(({ Icon, href, label }) => (
-          <a key={label} href={href} target="_blank" rel="noopener noreferrer" className="text-primary/70 hover:text-primary transition-colors" aria-label={label}>
-            <Icon size={24} />
+          <a key={label} href={href} target="_blank" rel="noopener noreferrer" className="text-primary/60 hover:text-primary transition-colors" aria-label={label}>
+            <Icon size={22} />
           </a>
         ))}
       </div>
