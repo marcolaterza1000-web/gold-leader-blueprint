@@ -3,7 +3,7 @@ import { Star } from "lucide-react";
 
 const HeroSection = () => (
   <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-    <img src={heroBg} alt="Marco Laterza Personal Training" className="absolute inset-0 w-full h-full object-cover" loading="eager" />
+    <img src={heroBg} alt="Marco Laterza Personal Training" className="absolute inset-0 w-full h-full object-cover" style={{ objectPosition: 'center 30%' }} loading="eager" />
     <div className="absolute inset-0 bg-background/70" />
 
     <div className="relative z-10 text-center px-4 max-w-4xl mx-auto pt-20">
