@@ -1,4 +1,4 @@
-import { MessageCircle } from "lucide-react";
+import { FaWhatsapp } from "react-icons/fa";
 
 const FloatingButtons = () => (
   <>
@@ -10,7 +10,7 @@ const FloatingButtons = () => (
       className="fixed bottom-6 left-6 z-40 w-14 h-14 rounded-full bg-primary flex items-center justify-center shadow-gold hover:brightness-110 transition"
       aria-label="WhatsApp"
     >
-      <MessageCircle className="w-6 h-6 text-primary-foreground" />
+      <FaWhatsapp size={24} className="text-primary-foreground" />
     </a>
 
     {/* Mobile sticky CTA - bottom right */}
