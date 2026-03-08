@@ -4,7 +4,7 @@ const testimonials = [
   {
     name: "Kaspar Luginbühl",
     role: "Wirtschaftsanwalt, Partner",
-    quote: "Dank Marcos Coaching fühle ich mich mit Mitte 40 so ausgeglichen und fitt wie noch nie. Seine Methode verbindet körperliche Leistungsfähigkeit mit mentaler Klarheit — genau das, was ich als Anwalt täglich brauche.",
+    quote: "Dank Marcos Coaching fühle ich mich mit Mitte 40 so ausgeglichen und fitt wie noch nie. Seine Methode verbindet körperliche Leistungsfähigkeit mit mentaler Klarheit - genau das, was ich als Anwalt täglich brauche.",
     highlight: "Mitte 40 — fitter als je zuvor"
   },
   {
