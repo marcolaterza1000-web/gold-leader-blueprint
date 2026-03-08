@@ -10,7 +10,7 @@ const ProblemSection = () => (
   <section className="py-24 bg-background px-4">
     <div className="container mx-auto max-w-5xl">
       <h2 className="font-playfair font-bold text-3xl md:text-5xl text-foreground text-center mb-16">
-        Sie funktionieren auf höchstem Niveau — <span className="text-primary">Ihr Körper auch?</span>
+        Sie funktionieren auf höchstem Niveau - <span className="text-primary">Ihr Körper auch?</span>
       </h2>
       <div className="grid md:grid-cols-3 gap-8">
         {cards.map((c, i) => (
