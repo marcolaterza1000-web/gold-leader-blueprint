@@ -26,7 +26,7 @@ const AboutMarco = () => (
             className="rounded-lg w-full object-cover aspect-[4/5]"
             loading="lazy"
           />
-          <div className="absolute -bottom-4 -right-4 w-24 h-24 border-2 border-primary rounded-lg" />
+          
           <div className="absolute -top-4 -left-4 bg-card border border-primary/40 rounded-lg px-4 py-3 shadow-gold">
             <p className="font-inter text-xs text-muted-foreground">International anerkannt</p>
             <p className="font-playfair text-primary font-bold text-lg">24× Cover</p>
