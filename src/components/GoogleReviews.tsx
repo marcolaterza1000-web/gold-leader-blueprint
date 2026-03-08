@@ -45,7 +45,7 @@ const GoogleReviews = () =>
             <p className="font-inter text-foreground/80 leading-relaxed mb-5 text-sm">
               «{r.text}»
             </p>
-            <p className="font-inter font-semibold text-foreground text-sm py-0 my-0 px-0">{r.name}</p>
+            <p className="font-inter font-semibold text-foreground text-sm py-0 my-0 px-0 whitespace-nowrap">{r.name}</p>
           </div>
       )}
       </div>
