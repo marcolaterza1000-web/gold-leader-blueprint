@@ -46,7 +46,7 @@ const AboutMarco = () =>
             Meine Reise führte mich über internationale Laufstege und die Titelseiten weltweiter Fitnessmagazine bis hin zur Arbeit mit führenden Medizinern und Experten für Stoffwechselprozesse. Ich weiss, wie es sich anfühlt, wenn der Terminkalender die Lebensqualität diktiert.
           </p>
           <p className="font-inter text-foreground/70 leading-relaxed mb-8 text-base">
-            Deshalb habe ich ein System entwickelt, das die biologischen Bedürfnisse Ihres Körpers mit den Anforderungen eines modernen Führungsalltags in Einklang bringt. Ich verstehe mich als Ihr Mentor und strategischer Berater auf Augenhöhe — nicht um flüchtige Trends zu verfolgen, sondern um eine nachhaltige Transformation zu erreichen.
+            Deshalb habe ich ein System entwickelt, das die biologischen Bedürfnisse Ihres Körpers mit den Anforderungen eines modernen Führungsalltags in Einklang bringt. Ich verstehe mich als Ihr Mentor und strategischer Berater auf Augenhöhe - nicht um flüchtige Trends zu verfolgen, sondern um eine nachhaltige Transformation zu erreichen.
           </p>
 
           <div className="grid grid-cols-1 gap-2 mb-8">
