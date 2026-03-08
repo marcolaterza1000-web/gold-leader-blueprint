@@ -1,4 +1,12 @@
-import { Instagram, Linkedin, Youtube } from "lucide-react";
+import { Instagram, Linkedin, Youtube, Facebook, MessageCircle } from "lucide-react";
+
+const socialLinks = [
+  { Icon: Instagram, href: "https://www.instagram.com/marcolaterza/", label: "Instagram" },
+  { Icon: Linkedin, href: "https://www.linkedin.com/in/marco-laterza/", label: "LinkedIn" },
+  { Icon: Youtube, href: "https://www.youtube.com/channel/UCMPQ4avjkYuDbKICyU8M_2w", label: "YouTube" },
+  { Icon: Facebook, href: "https://www.facebook.com/marcolaterzafit", label: "Facebook" },
+  { Icon: MessageCircle, href: "https://wa.me/41794445851", label: "WhatsApp" },
+];
 
 const Footer = () => (
   <footer className="py-12 bg-background border-t border-border px-4">
@@ -9,8 +17,8 @@ const Footer = () => (
       </div>
 
       <div className="flex items-center gap-4">
-        {[Instagram, Linkedin, Youtube].map((Icon, i) => (
-          <a key={i} href="#" className="text-primary/70 hover:text-primary transition-colors" aria-label="Social">
+        {socialLinks.map(({ Icon, href, label }) => (
+          <a key={label} href={href} target="_blank" rel="noopener noreferrer" className="text-primary/70 hover:text-primary transition-colors" aria-label={label}>
             <Icon className="w-5 h-5" />
           </a>
         ))}
