@@ -4,7 +4,7 @@ const testimonials = [
   {
     name: "Kaspar Luginbühl",
     role: "Wirtschaftsanwalt, Partner",
-    quote: "Dank Marcos Coaching fühle ich mich mit Mitte 40 so ausgeglichen und fitt wie noch nie. Seine Methode verbindet körperliche Leistungsfähigkeit mit mentaler Klarheit -au das, was ich als Anwalt täglich brauche.",
+    quote: "Dank Marcos Coaching fühle ich mich mit Mitte 40 so ausgeglichen und fitt wie noch nie. Seine Methode verbindet körperliche Leistungsfähigkeit mit mentaler Klarheit - das, was ich als Anwalt täglich brauche.",
     highlight: "Mitte 40 — fitter als je zuvor"
   },
   {
@@ -16,7 +16,7 @@ const testimonials = [
   {
     name: "Pascal Zuberbühler",
     role: "Senior Football Expert, FIFA",
-    quote: "Es war für mich schwierig, wieder in einen guten Trainingsmodus hineinzukommen. Dabei hat mich Marco immens unterstützt �-i-inem strukturierten, individuellen Ansatz der wirklich funktioniert.",
+    quote: "Es war für mich schwierig, wieder in einen guten Trainingsmodus hineinzukommen. Dabei hat mich Marco immens unterstützt �-i-i- strukturierten, individuellen Ansatz der wirklich funktioniert.",
     highlight: "Strukturiert zurück in den Rhythmus"
   },
   {
