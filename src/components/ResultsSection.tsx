@@ -69,7 +69,7 @@ const ResultsSection = () => (
               «{t.quote}»
             </p>
             <div className="border-t border-border pt-4">
-              <p className="font-inter font-semibold text-foreground text-sm">{t.name}</p>
+              <p className="font-inter font-semibold text-foreground text-sm whitespace-nowrap">{t.name}</p>
               <p className="font-inter text-xs text-muted-foreground">{t.role}</p>
             </div>
           </div>
