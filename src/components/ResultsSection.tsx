@@ -4,8 +4,8 @@ const testimonials = [
   {
     name: "Kaspar Luginbühl",
     role: "Wirtschaftsanwalt, Partner",
-    quote: "Dank Marcos Coaching fühle ich mich mit Mitte 40 so ausgeglichen und fitt wie noch nie. Seine Methode verbindet körperliche Leistungsfähigkeit mit mentaler Klarheit — genau das, was ich als Anwalt täglich brauche.",
-    highlight: "Mitte 40 — fitter als je zuvor"
+    quote: "Dank Marcos Coaching fühle ich mich mit Mitte 40 so ausgeglichen und fitt wie noch nie. Seine Methode verbindet körperliche Leistungsfähigkeit mit mentaler Klarheit - genau das, was ich als Anwalt täglich brauche.",
+    highlight: "Mitte 40 - fitter als je zuvor"
   },
   {
     name: "Burkhard Boeckem",
@@ -16,7 +16,7 @@ const testimonials = [
   {
     name: "Pascal Zuberbühler",
     role: "Senior Football Expert, FIFA",
-    quote: "Es war für mich schwierig, wieder in einen guten Trainingsmodus hineinzukommen. Dabei hat mich Marco immens unterstützt — mit einem strukturierten, individuellen Ansatz der wirklich funktioniert.",
+    quote: "Es war für mich schwierig, wieder in einen guten Trainingsmodus hineinzukommen. Dabei hat mich Marco immens unterstützt - mit einem strukturierten, individuellen Ansatz der wirklich funktioniert.",
     highlight: "Strukturiert zurück in den Rhythmus"
   },
   {
@@ -28,13 +28,13 @@ const testimonials = [
   {
     name: "Gabriela Weiss",
     role: "Senior Payroll Specialist",
-    quote: "Dank Marco konnte ich meinen Körperfettanteil von 26% auf 17% senken — und das nachhaltig, ohne Crash-Diäten und ohne mein Leben auf den Kopf zu stellen.",
+    quote: "Dank Marco konnte ich meinen Körperfettanteil von 26% auf 17% senken - und das nachhaltig, ohne Crash-Diäten und ohne mein Leben auf den Kopf zu stellen.",
     highlight: "Von 26% auf 17% Körperfett"
   },
   {
     name: "Nicola Hägeli",
     role: "Unternehmer",
-    quote: "Als Unternehmer ist mein Alltag oft chaotisch. Marco hat das geändert — ohne Druck, aber mit Klarheit. Sein Coaching ist strukturiert, individuell und vor allem alltagstauglich. Kein leeres Versprechen, sondern ehrliche Arbeit mit einem Plan.",
+    quote: "Als Unternehmer ist mein Alltag oft chaotisch. Marco hat das geändert - ohne Druck, aber mit Klarheit. Sein Coaching ist strukturiert, individuell und vor allem alltagstauglich. Kein leeres Versprechen, sondern ehrliche Arbeit mit einem Plan.",
     highlight: "Endlich eine Routine die hält"
   },
 ];
@@ -53,7 +53,7 @@ const ResultsSection = () => (
         Messbare Resultate für <span className="text-primary">Menschen mit Ambitionen</span>
       </h2>
       <p className="text-center font-inter text-muted-foreground mb-16 max-w-xl mx-auto">
-        Führungskräfte, Sportler und Entscheider — das sagen Sie über die Zusammenarbeit mit Marco.
+        Führungskräfte, Sportler und Entscheider - das sagen Sie über die Zusammenarbeit mit Marco.
       </p>
 
       <div className="grid md:grid-cols-3 gap-6">
