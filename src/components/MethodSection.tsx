@@ -4,13 +4,13 @@ const tiles = [
 {
   icon: Dumbbell,
   title: "Präzises Krafttraining",
-  text: "Biomechanisch sauber und hocheffizient -kt angepasst an Ihren Kalender und Ihre Tagesform. Basierend auf HRV-Messungen steuern wir die Belastung so, dass Sie Stress abbauen und Energie gewinnen, statt auszubrennen.",
+  text: "Biomechanisch sauber und hocheffizient - exakt angepasst an Ihren Kalender und Ihre Tagesform. Basierend auf HRV-Messungen steuern wir die Belastung so, dass Sie Stress abbauen und Energie gewinnen, statt auszubrennen.",
   tag: "Training"
 },
 {
   icon: Apple,
   title: "Hormonbasierte Ernährungsoptimierung",
-  text: "Kein Nachmittagstief, sondern konstanter Fokus. Wir entwickeln eine Strategie basierend auf Blutmessungen Ihrer hormonellen Ausgangslage �-r-atisch integrierbar in Geschäftsessen und Reisen. Maximale Energie bei vollem Genuss.",
+  text: "Kein Nachmittagstief, sondern konstanter Fokus. Wir entwickeln eine Strategie basierend auf Blutmessungen Ihrer hormonellen Ausgangslage - pragmatisch integrierbar in Geschäftsessen und Reisen. Maximale Energie bei vollem Genuss.",
   tag: "Ernährung"
 },
 {
@@ -22,7 +22,7 @@ const tiles = [
 {
   icon: Activity,
   title: "Bioprint & Stoffwechselmessung",
-  text: "Präzise Analysen zeigen Entzündungsprozesse, Hormonstatus und Körperzusammensetzung. Gemeinsam mit Spitzenmedizinern planen wir Training und Ernährung passend zu Ihrer individuellen Biologie — datengetrieben, messbar, nachhaltig.",
+  text: "Präzise Analysen zeigen Entzündungsprozesse, Hormonstatus und Körperzusammensetzung. Gemeinsam mit Spitzenmedizinern planen wir Training und Ernährung passend zu Ihrer individuellen Biologie - datengetrieben, messbar, nachhaltig.",
   tag: "Analyse"
 }];
 
