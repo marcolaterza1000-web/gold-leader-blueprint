@@ -8,10 +8,7 @@ import t5 from "@/assets/transform_corinna.jpg";
 import t6 from "@/assets/transform_extra.jpg";
 import t7 from "@/assets/transform_nico.jpg";
 import t8 from "@/assets/transform_bidi.jpg";
-import t9 from "@/assets/transform_front.jpg";
-import t10 from "@/assets/transform_jean.jpg";
-import t11 from "@/assets/transform_marco.jpg";
-const images = [t1, t2, t3, t4, t5, t6, t7, t8, t9, t10, t11];
+const images = [t1, t2, t3, t4, t5, t6, t7, t8];
 
 const TransformationGallery = () => {
   const [selected, setSelected] = useState<string | null>(null);
@@ -29,19 +26,23 @@ const TransformationGallery = () => {
           Über 500 Transformationen in 20+ Jahren. Jedes Resultat ist das Ergebnis eines individuellen, massgeschneiderten Programms.
         </p>
 
-        <div className="columns-2 md:columns-3 lg:columns-4 gap-4 space-y-4">
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
           {images.map((img, i) => (
             <div
               key={i}
-              className="break-inside-avoid cursor-pointer overflow-hidden rounded-2xl border border-border shadow-card hover:shadow-card-hover hover:border-primary/30 transition-all duration-300 hover:scale-[1.02]"
+              className="cursor-pointer overflow-hidden rounded-2xl border border-border bg-card shadow-card hover:shadow-card-hover hover:border-primary/30 transition-all duration-300 hover:scale-[1.02]"
               onClick={() => setSelected(img)}
             >
               <img
                 src={img}
                 alt={`Body Transformation ${i + 1} Marco Laterza Zürich`}
-                className="w-full object-cover"
+                className="w-full aspect-[4/5] object-cover"
                 loading="lazy"
               />
+              <div className="flex justify-between px-4 py-3">
+                <span className="font-inter text-xs uppercase tracking-widest text-primary font-semibold">Vorher</span>
+                <span className="font-inter text-xs uppercase tracking-widest text-primary font-semibold">Nachher</span>
+              </div>
             </div>
           ))}
         </div>
